@@ -1,0 +1,64 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+header {
+  height: 100px;
+  background-color: #CC9D00;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;  
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.menu a:hover {
+  background-color: #cc6300;
+  margin: 0;
+  transition: 90ms;
+  border-radius: 5px;
+}
+.simbolo_folha img{
+  width: auto;
+  height: 70%;
+  margin-left: 100px;
+  padding-top: 15px;
+}
+.titulo , .sub-titulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.sobre, .jutsus, .curiosidades {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+  padding: 0px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.carousel-inner{
+  height: 70vh;
+}
+.carousel-inner img {
+
+}
+/* .banner {
+  margin-top: 10px;
+  display: flex;
+}
+.banner img {
+  height: 80vh;
+  width: 1000px;
+} */
+

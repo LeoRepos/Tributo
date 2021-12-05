@@ -18,7 +18,6 @@ header {
 .menu {
   display: flex;
   align-items: center;
-  margin-right: 50px;
 }
 .menu a:hover {
   background-color: #cc6300;
@@ -32,7 +31,7 @@ header {
   margin-left: 100px;
   padding-top: 15px;
 }
-.titulo , .sub-titulo {
+.titulo, .sub-titulo {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   margin-bottom: 10px;

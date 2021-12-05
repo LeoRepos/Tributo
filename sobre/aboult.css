@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  background-color: #CC9D00;
+  margin-bottom: 1px;  
+}
+.folha {
+  height: 99%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+.image-aboult {
+  width: 50vh;
+  height: 70vh;
+  margin-left: 1px;
+}
+.image-aboult img {
+  height: 100%;
+  width: auto;  
+}

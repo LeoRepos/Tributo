@@ -40,7 +40,6 @@ header {
   line-height: 20px;
 }
 .btn {
-  /* background-color:#ff6435; */
   height: 25px;
   width: 50px;
   background-color: #ad6a04;
@@ -49,4 +48,5 @@ header {
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  font-family: sans-serif;
 }

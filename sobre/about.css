@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  background-color: #CC9D00;
+  margin-bottom: 1px;  
+}
+.folha {
+  height: 99%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+.image-aboult {
+  width: 50%;
+  height: 50%;
+}
+.image-aboult img {
+  height: 100%;
+  width: 100%;  
+}
+section {
+  display: flex;
+}
+.paragrafos {
+  width: 50%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.botao {
+  width: 150px;
+  height: 100px;
+  padding: 20px;
+
+}
+.btn-voltar {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(245, 84, 26);
+  border-radius: 5px;
+}
+.btn-voltar:hover {
+  background-color:#ffac5e;
+}

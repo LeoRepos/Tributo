@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: #CC9D00;
+    margin-bottom: 1px; 
+    display: block; 
+    /* filter: blur(1px); */
+}
+
+.folha {
+    height: 99%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn {
+    height: 25px;
+    width: 50px;
+    background-color: #ad6a04;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+.btn:hover {
+    background-color: #cc6300;
+    transition: 90ms;
+}
+#botao {
+    height: 100px;
+    width: 10%;
+    padding: 20px;
+
+}
+.container a {
+    text-decoration: none;
+    padding-left: 1px;
+}
+figcaption {
+    width: 320px;
+    height: 100%;
+    text-align:center;
+    border-style: groove;
+    margin-left: 1px;
+}
